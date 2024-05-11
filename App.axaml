@@ -1,0 +1,14 @@
+<Application xmlns="https://github.com/avaloniaui"
+	     xmlns:themes="clr-namespace:Material.Styles.Themes;assembly=Material.Styles"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="cursach.App"
+             xmlns:local="using:cursach"
+             RequestedThemeVariant="Dark">
+             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
+
+
+    <Application.Styles>
+    <FluentTheme />
+    <themes:MaterialTheme BaseTheme="Dark" PrimaryColor="Purple" SecondaryColor="Lime" />
+  </Application.Styles>
+</Application>

@@ -1,0 +1,43 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:cursach.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="cursach.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="cursach">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+
+    <Grid VerticalAlignment = "Center">
+    	<Grid.RowDefinitions>
+		<RowDefinition Height = "auto" />
+		<RowDefinition Height = "auto" />
+		<RowDefinition Height = "auto" />
+		<RowDefinition Height = "auto" />
+		<RowDefinition Height = "*" />
+	</Grid.RowDefinitions>
+	<Label Name="Title"   Grid.Row = "0"   HorizontalAlignment = "Center" FontSize = "25">Придумайте какую-нибудь проблему</Label>
+	<TextBox KeyDown = "OnBoxType" VerticalContentAlignment = "Center" HorizontalContentAlignment = "Center" Margin = "30" Grid.Row = "1" Name="Problem" ></TextBox>
+	<DockPanel Width = "300" HorizontalAlignment = "Center" Grid.Row = "2"> 
+	<WrapPanel Margin = "10" HorizontalAlignment = "Center">
+		<Button Height = "50" Width = "200" FontSize = "20" VerticalContentAlignment = "Center" HorizontalContentAlignment = "Center" Click = "OnButtonClick">Подтвердить</Button>
+	</WrapPanel>
+	</DockPanel>
+ 	<WrapPanel Margin = "10" Grid.Row = "3" HorizontalAlignment = "Center">
+		<Button Height = "50" Width = "200" FontSize = "20" VerticalContentAlignment = "Center" HorizontalContentAlignment = "Center" Click = "OpenResultsClick">Результаты</Button>
+	</WrapPanel>
+	<WrapPanel Margin = "10" Grid.Row = "4" HorizontalAlignment = "Center">
+		<Button Height = "50" Width = "200" FontSize = "20" VerticalContentAlignment = "Center" HorizontalContentAlignment = "Center" Click = "OpenSettingsClick">Выход</Button>
+	</WrapPanel> 
+    </Grid>
+
+
+</Window>

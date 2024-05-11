@@ -1,0 +1,41 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:cursach.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="cursach.Views.Writing"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="cursach">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+
+    <Grid VerticalAlignment = "Center">
+    	<Grid.RowDefinitions>
+		<RowDefinition Height = "20" />
+		<RowDefinition Height = "auto" />
+		<RowDefinition Height = "auto" />
+		<RowDefinition Height = "auto" />
+		<RowDefinition Height = "*" />
+	</Grid.RowDefinitions>
+	<ProgressBar Grid.Row = "0" Name = "Time" Height = "20" Margin = "10 -50 10 50" Minimum = "0" Maximum = "100" Value = "100"/>
+	<StackPanel Grid.Row = "1" Margin = "20" Orientation = "Horizontal">
+		<TextBlock Name = "CurrentProb" >Текущая проблема:</TextBlock>
+	</StackPanel>
+
+	<TextBox Margin = "20" MaxLines = "20" AcceptsReturn = "True" Grid.Row = "2" Name = "InputBox"></TextBox>
+	<StackPanel Grid.Row = "3" Orientation="Horizontal">
+		<WrapPanel Margin = "10" HorizontalAlignment = "Center">
+			<Button Click = "ExitClickButton" Height = "50" Width = "200" FontSize = "20" VerticalContentAlignment = "Center" HorizontalContentAlignment = "Center">Завершить</Button>
+		</WrapPanel>
+	</StackPanel>
+    </Grid>
+
+
+</Window>
