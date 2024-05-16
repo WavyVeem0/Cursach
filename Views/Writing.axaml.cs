@@ -19,12 +19,15 @@ public partial class Writing : Window
 	{
 		InitializeComponent();
 		this.curr_solution = curr_solution; 
-
+		
 		CurrentProb.Text = "Текущая проблема: " + curr_solution.Problem;
 		progressBarTimer = new DispatcherTimer();
 		progressBarTimer.Tick += new EventHandler(timerTick);
-		progressBarTimer.Interval = new TimeSpan(0,0,0,0,500);
+		progressBarTimer.Interval = new TimeSpan(0,0,0,0,1000);
 		progressBarTimer.Start();
+		string newKeyWord = GetWordFromDB();
+		RandomWord.Text = "Случайное слово: " + newKeyWord;
+		curr_solution.KeyWord = newKeyWord + " ";
 	}
 	private void timerTick(object sender, EventArgs e)
 	{
@@ -61,7 +64,7 @@ public partial class Writing : Window
 				SqliteCommand command = connection.CreateCommand();
 				command.Connection = connection;
 
-				command.CommandText = "CREATE TABLE Answers(_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE, Solution TEXT, Likes INTEGER)";
+				command.CommandText = "CREATE TABLE Answers(_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE, Solution TEXT, KeyWord TEXT, Problem TEXT)";
 				command.ExecuteNonQuery();
 			}
 			catch (Exception e)
@@ -71,10 +74,25 @@ public partial class Writing : Window
 
 			SqliteCommand addElement = connection.CreateCommand();
 			addElement.Connection = connection;
-			addElement.CommandText = $"INSERT INTO Answers (Solution, Likes) VALUES (\"{InputBox.Text}\", 0)";
+			addElement.CommandText = $"INSERT INTO Answers (Solution, KeyWord, Problem) VALUES (\"{InputBox.Text}\", \"{curr_solution.KeyWord}\", \"{curr_solution.Problem}\" )";
 			addElement.ExecuteNonQuery();
 
 		}
+	}
+	public string GetWordFromDB()
+	{
+		string sqlExpression = "SELECT * FROM nouns ORDER BY RANDOM() LIMIT 1";
+		using (var connection = new SqliteConnection("Data Source=words.db")) 
+		{
+			connection.Open();
+			SqliteCommand command = new SqliteCommand(sqlExpression, connection);
+			using (SqliteDataReader reader = command.ExecuteReader()) 
+			{
+				reader.Read();
+				return reader.GetValue(1).ToString();
+			}
+		} 
+		
 	}
 
 

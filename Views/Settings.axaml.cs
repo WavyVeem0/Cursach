@@ -19,4 +19,9 @@ public partial class Settings : Window
 		InitializeComponent();
 		this.DataContext = vm;
 	}
+
+ 	public void ExitClick(object sender, RoutedEventArgs args) 
+ 	{
+		this.Close();
+ 	}
 }

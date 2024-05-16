@@ -25,8 +25,9 @@
 		<RowDefinition Height = "*" />
 	</Grid.RowDefinitions>
 	<ProgressBar Grid.Row = "0" Name = "Time" Height = "20" Margin = "10 -50 10 50" Minimum = "0" Maximum = "100" Value = "100"/>
-	<StackPanel Grid.Row = "1" Margin = "20" Orientation = "Horizontal">
-		<TextBlock Name = "CurrentProb" >Текущая проблема:</TextBlock>
+	<StackPanel Grid.Row = "1" Margin = "20" Orientation = "Vertical">
+		<TextBlock Name = "CurrentProb" >Текущая проблема: </TextBlock>
+		<TextBlock Name = "RandomWord">Текущее случайное слово: </TextBlock>
 	</StackPanel>
 
 	<TextBox Margin = "20" MaxLines = "20" AcceptsReturn = "True" Grid.Row = "2" Name = "InputBox"></TextBox>

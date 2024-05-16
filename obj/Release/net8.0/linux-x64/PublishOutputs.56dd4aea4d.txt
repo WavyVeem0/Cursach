@@ -1,0 +1,2 @@
+/home/wavyveemo/Cursach/cursach/bin/Release/net8.0/linux-x64/publish/cursach.pdb
+/home/wavyveemo/Cursach/cursach/bin/Release/net8.0/linux-x64/publish/cursach

@@ -194,6 +194,7 @@
 /home/wavyveemo/Cursach/cursach/bin/Debug/net8.0/runtimes/win-x64/native/e_sqlite3.dll
 /home/wavyveemo/Cursach/cursach/bin/Debug/net8.0/runtimes/win-x86/native/e_sqlite3.dll
 /home/wavyveemo/Cursach/cursach/bin/Debug/net8.0/Avalonia.Controls.ItemsRepeater.dll
+/home/wavyveemo/Cursach/cursach/bin/Debug/net8.0/ReactiveUI.Fody.Helpers.dll
+/home/wavyveemo/Cursach/cursach/obj/Debug/net8.0/cursach.sourcelink.json
 /home/wavyveemo/Cursach/cursach/obj/Debug/net8.0/cursach.csproj.Fody.CopyLocal.cache
 /home/wavyveemo/Cursach/cursach/obj/Debug/net8.0/cursach.csproj.Fody.RuntimeCopyLocal.cache
-/home/wavyveemo/Cursach/cursach/bin/Debug/net8.0/ReactiveUI.Fody.Helpers.dll

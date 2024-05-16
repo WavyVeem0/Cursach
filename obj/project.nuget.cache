@@ -1,17 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "CepJyFsU8736LHgLKSOvp82UDjhKKR5GiHfSedP688qKcp5OssFKv5C4easBuend9uN8uVlokQ8qzAjM7N6zUg==",
+  "dgSpecHash": "CJZEuyjPeb41KKxC5/49h1kJLZQ4XjDYdvAL1iSPai5Y+xfsDXbOt1ErBXqEi0KNXWW0dtLHC8F5PUubJVPPVA==",
   "success": true,
   "projectFilePath": "/home/wavyveemo/Cursach/cursach/cursach.csproj",
   "expectedPackageFiles": [
     "/home/wavyveemo/.nuget/packages/avalonia/11.0.10/avalonia.11.0.10.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/avalonia.angle.windows.natives/2.1.0.2023020321/avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/avalonia.buildservices/0.0.29/avalonia.buildservices.0.0.29.nupkg.sha512",
-    "/home/wavyveemo/.nuget/packages/avalonia.controls.colorpicker/11.0.10/avalonia.controls.colorpicker.11.0.10.nupkg.sha512",
-    "/home/wavyveemo/.nuget/packages/avalonia.controls.datagrid/11.0.10/avalonia.controls.datagrid.11.0.10.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/avalonia.controls.itemsrepeater/11.0.10/avalonia.controls.itemsrepeater.11.0.10.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/avalonia.desktop/11.0.10/avalonia.desktop.11.0.10.nupkg.sha512",
-    "/home/wavyveemo/.nuget/packages/avalonia.diagnostics/11.0.10/avalonia.diagnostics.11.0.10.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/avalonia.fonts.inter/11.0.10/avalonia.fonts.inter.11.0.10.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/avalonia.freedesktop/11.0.10/avalonia.freedesktop.11.0.10.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/avalonia.native/11.0.10/avalonia.native.11.0.10.nupkg.sha512",
@@ -19,7 +16,6 @@
     "/home/wavyveemo/.nuget/packages/avalonia.remote.protocol/11.0.10/avalonia.remote.protocol.11.0.10.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/avalonia.skia/11.0.10/avalonia.skia.11.0.10.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/avalonia.themes.fluent/11.0.10/avalonia.themes.fluent.11.0.10.nupkg.sha512",
-    "/home/wavyveemo/.nuget/packages/avalonia.themes.simple/11.0.10/avalonia.themes.simple.11.0.10.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/avalonia.win32/11.0.10/avalonia.win32.11.0.10.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/avalonia.x11/11.0.10/avalonia.x11.11.0.10.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/dynamicdata/8.3.27/dynamicdata.8.3.27.nupkg.sha512",
@@ -36,17 +32,13 @@
     "/home/wavyveemo/.nuget/packages/microsoft.aspnetcore.blazor/0.9.0-preview3-19153-02/microsoft.aspnetcore.blazor.0.9.0-preview3-19153-02.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/microsoft.aspnetcore.components/3.0.0-preview3-19153-02/microsoft.aspnetcore.components.3.0.0-preview3-19153-02.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/microsoft.aspnetcore.components.browser/3.0.0-preview3-19153-02/microsoft.aspnetcore.components.browser.3.0.0-preview3-19153-02.nupkg.sha512",
-    "/home/wavyveemo/.nuget/packages/microsoft.codeanalysis.analyzers/3.0.0/microsoft.codeanalysis.analyzers.3.0.0.nupkg.sha512",
-    "/home/wavyveemo/.nuget/packages/microsoft.codeanalysis.common/3.8.0/microsoft.codeanalysis.common.3.8.0.nupkg.sha512",
-    "/home/wavyveemo/.nuget/packages/microsoft.codeanalysis.csharp/3.8.0/microsoft.codeanalysis.csharp.3.8.0.nupkg.sha512",
-    "/home/wavyveemo/.nuget/packages/microsoft.codeanalysis.csharp.scripting/3.8.0/microsoft.codeanalysis.csharp.scripting.3.8.0.nupkg.sha512",
-    "/home/wavyveemo/.nuget/packages/microsoft.codeanalysis.scripting.common/3.8.0/microsoft.codeanalysis.scripting.common.3.8.0.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/microsoft.data.sqlite/8.0.4/microsoft.data.sqlite.8.0.4.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/microsoft.data.sqlite.core/8.0.4/microsoft.data.sqlite.core.8.0.4.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/microsoft.extensions.dependencyinjection/3.0.0-preview3.19153.1/microsoft.extensions.dependencyinjection.3.0.0-preview3.19153.1.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.0.0-preview3.19153.1/microsoft.extensions.dependencyinjection.abstractions.3.0.0-preview3.19153.1.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/microsoft.jsinterop/3.0.0-preview3.19153.1/microsoft.jsinterop.3.0.0-preview3.19153.1.nupkg.sha512",
+    "/home/wavyveemo/.nuget/packages/microsoft.net.illink.tasks/8.0.4/microsoft.net.illink.tasks.8.0.4.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
@@ -69,7 +61,6 @@
     "/home/wavyveemo/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.6/sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/stub.system.data.sqlite.core.netstandard/1.0.118/stub.system.data.sqlite.core.netstandard.1.0.118.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/system.codedom/4.7.0/system.codedom.4.7.0.nupkg.sha512",
-    "/home/wavyveemo/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/system.configuration.configurationmanager/4.7.0/system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/system.data.sqlclient/4.8.1/system.data.sqlclient.4.8.1.nupkg.sha512",
@@ -78,22 +69,21 @@
     "/home/wavyveemo/.nuget/packages/system.data.sqlite.ef6/1.0.118/system.data.sqlite.ef6.1.0.118.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/system.drawing.common/4.7.0/system.drawing.common.4.7.0.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/system.io.pipelines/6.0.0/system.io.pipelines.6.0.0.nupkg.sha512",
-    "/home/wavyveemo/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/home/wavyveemo/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/system.reactive/6.0.0/system.reactive.6.0.0.nupkg.sha512",
-    "/home/wavyveemo/.nuget/packages/system.reflection.metadata/5.0.0/system.reflection.metadata.5.0.0.nupkg.sha512",
-    "/home/wavyveemo/.nuget/packages/system.runtime.compilerservices.unsafe/4.7.1/system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/system.security.cryptography.protecteddata/4.7.0/system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/system.security.permissions/4.7.0/system.security.permissions.4.7.0.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",
-    "/home/wavyveemo/.nuget/packages/system.text.encoding.codepages/4.5.1/system.text.encoding.codepages.4.5.1.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
-    "/home/wavyveemo/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512",
     "/home/wavyveemo/.nuget/packages/tmds.dbus.protocol/0.15.0/tmds.dbus.protocol.0.15.0.nupkg.sha512",
-    "/home/wavyveemo/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.4/microsoft.aspnetcore.app.ref.8.0.4.nupkg.sha512"
+    "/home/wavyveemo/.nuget/packages/microsoft.netcore.app.runtime.win-x64/8.0.4/microsoft.netcore.app.runtime.win-x64.8.0.4.nupkg.sha512",
+    "/home/wavyveemo/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.4/microsoft.aspnetcore.app.ref.8.0.4.nupkg.sha512",
+    "/home/wavyveemo/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/8.0.4/microsoft.aspnetcore.app.runtime.win-x64.8.0.4.nupkg.sha512",
+    "/home/wavyveemo/.nuget/packages/microsoft.netcore.app.host.win-x64/8.0.4/microsoft.netcore.app.host.win-x64.8.0.4.nupkg.sha512"
   ],
   "logs": [
     {
@@ -103,7 +93,8 @@
       "message": "Material 0.0.0.1 depends on Microsoft.AspNetCore.Blazor (>= 0.8.0-preview1-20181113.7) but Microsoft.AspNetCore.Blazor 0.8.0-preview1-20181113.7 was not found. An approximate best match of Microsoft.AspNetCore.Blazor 0.9.0-preview3-19153-02 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Blazor",
       "targetGraphs": [
-        "net8.0"
+        "net8.0",
+        "net8.0/win-x64"
       ]
     }
   ]
